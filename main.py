@@ -7,13 +7,12 @@ import random
 
 pygame.init()
 
-#/////////////////////////////////////////////////////////////////////////////////
 WINDOW_SIZE = (800, 600)     # Altura x Largura em pixels
 NUM_RAYS = 360               # Entre 1 e 360 
 SOLID_RAYS = False           # Estranho, melhores resultados com NUM_RAYS = 360
 NUM_WALLS = 10                # The amount of randomly generated walls
 DISPLAY_MODE = "showcase"    # "darkness" or "showcase" or ""
-#/////////////////////////////////////////////////////////////////////////////////
+
 
 
 screen = pygame.display.set_mode(WINDOW_SIZE)
