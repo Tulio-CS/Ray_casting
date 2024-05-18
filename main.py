@@ -3,7 +3,7 @@ from pygame.locals import *
 from math import sin, cos, sqrt, radians
 import random
 
-
+#teste
 
 #-----------------------COMANDOS-----------------------
 
